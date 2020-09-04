@@ -6,4 +6,6 @@ s = set(l)
 sumOFlist = sum(l)
 sumOFset = sum(s)
 
-print(((sumOFset*K)-(sumOFlist))//(K-1))
+bonusCapitanNos = (sumOFset*K)-sumOFlist
+
+print(bonusCapitanNos//(K-1))
